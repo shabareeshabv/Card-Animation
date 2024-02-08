@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+           <img src="images/p1.jpg" alt="product">
+            <div class="card-body">
+                <div class="card-title">Glassmorphism</div>
+                <div class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non necessitatibus amet animi perferendis fugiat. Tempore quos voluptate officiis accusantium dolorum, qui repudiandae. Ipsa distinctio non libero ea error esse debitis?</div>
+                <div class="read-more"><a href="#"> Read More </a></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400,
+            glare:true
+        });
+        
+    </script>
+</body>
+</html>
